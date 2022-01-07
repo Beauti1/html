@@ -8,41 +8,54 @@
 			font-size: 20px;
 			font-family: Arial;
 			padding-left: 10px;
+			
 		}
 		body{
 			margin: 0px;
 			padding: 0px;
+			background-color: rgb(175, 211, 195);
 		}
 
 		#header {
 			margin: 0px;
 			border:  1px black solid;
 			padding-left: 20px;
+			margin-bottom:-20px;
 			background-color: #66CDAA;
-			color:  black;
-			border-bottom: 5px #66CDAA solid;
+			color:  #973c01;
+			border-bottom: 5px #973c01 solid;
 		}
 
 		#navig{
 			background-color: #66CDAA;
 			padding:10px;
 			font-family: arial;
-			border-bottom: 5px black solid;
+			border-bottom: 5px #973c01 solid;
+			
 		}
 		a:link{
-			text-decoration:none;
 			font-size:20px;
+			color: 
+		}
+		a:visited{
+			color:#000000;
+		}
+		a:hover
+		{
+			background-color:#24a5a4;
 		}
 		#footer{
-			border-top:  5px orange solid;
+			border-top:  5px #973c01 solid;
 			background-color: lightgray;
-			color: orange;
-			padding-bottom: 0px;
+			color: #973c01;
+			padding-bottom: 30px;
 			margin-bottom: -12px;
 			padding-left: 10px;
 		}
-		li{
-			display: inline;
+		.listnav{
+			display: flex;
+			justify-content: space-evenly;
+			list-style: none;
 		}
 	
 	</style>
@@ -52,12 +65,12 @@
 		<h1>Welcome to my web page.</h1>
 	</div>
 	<div id="navig">
-		<ul>
-  			<li><a href="#"> Home </a></li>
-			<li><a href="#"> Image </a></li>
-			<li><a href="#"> Contact </a></li>
-			<li><a href="#"> About </a></li>
-			<li><a href="#"> Maps </a></li>
+		<ul class="listnav">
+  			<li><a href="#home"> Home </a></li>
+			<li><a href="#image"> Image </a></li>
+			<li><a href="#contact"> Contact </a></li>
+			<li><a href="#about"> About </a></li>
+			<li><a href="#maps"> Maps </a></li>
 		</ul>
 	</div>
 	<div>
@@ -75,10 +88,10 @@
 	<div id="footer">
 		<p class="lead-p">Footer section starts here..</p>
 		<ol>
-			<li><a href="#">link 1</a></li><br>
-			<li><a href="#">link 2</a></li><br>
-			<li><a href="#">link 3</a></li><br>
+			<li><a href="#link1">link 1</a></li><br>
+			<li><a href="#link2">link 2</a></li><br>
+			<li><a href="#link3">link 3</a></li><br>
 		</ol>
 	</div>
 </body>
-</html>
+</html
