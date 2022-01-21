@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="Text/css">
+		div.static{
+			position: static;
+			border: 3px solid #066470;
+			background: #3894a1;
+		}
+		.font{
+			font-style: Fantasy;
+			font-size: 20px;
+			color:#61020f;
+		}
+		div.relative{
+			position: relative;
+			width: 500px;
+			height:300px;
+			border:3px solid #066470;
+			background: #3894a1;
+			margin: auto;
+			z-index:2;
+		} 
+		div.absolute{
+			position: absolute;
+			top:80px;
+			right:0px;
+			width:300px;
+			height:200px;
+			border: 3px solid #066470;
+			background:#9cde87;
+			z-index:3;
+		}
+		div.fixed{
+			position: fixed;
+			bottom:0px;
+			right: 0px;
+			width:400px;
+			border: 3px solid #066470;
+			z-index:6;
+		}
+		div.sticky{
+			position: sticky;
+  			top: 0px;
+  			padding: 5px;
+  			background-color: #3894a1;
+  			border: 3px solid #066470;
+  			z-index: 5;
+  		}
+  		.body{
+  			background:#e5e3ff;
+  			margin:5px;
+  			border: 3px groove black;
+  			padding:5px;
+  		}
+				
+	</style>
+</head>
+<body class="body">
+		<h3>Position Sticky</h3>
+		<div class="sticky font"> I am Sticky</div>
+		
+		<h3>Position Static</h3>
+		<div class="static font">
+			<p> Hello! <p>
+		</div>
+		
+		<h3> Postion Relative and absolute </h3>
+		<div class="relative font"> An element with position: relative; is positioned relative to its normal position.
+			<div class="absolute font">An element with position: absolute; is positioned relative to the nearest positioned ancestor.
+			</div>
+		</div>
+		<div class="fixed font">
+			<p>Fixed Position</p>
+		</div>
+		<div class="font">
+Twice (Korean: 트와이스; Japanese: トゥワイス), commonly stylized as TWICE, is a South Korean girl group formed by JYP Entertainment. The group is composed of nine members: Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Dahyun, Chaeyoung, and Tzuyu. Twice was formed under the television program Sixteen (2015) and debuted on October 20, 2015, with the extended play (EP) The Story Begins.
+
+Twice rose to domestic fame in 2016 with their single "Cheer Up", which charted at number one on the Gaon Digital Chart, became the best-performing single of the year, and won "Song of the Year" at the Melon Music Awards and Mnet Asian Music Awards. Their next single, "TT", from their third EP Twicecoaster: Lane 1, topped the Gaon charts for four consecutive weeks. The EP was the highest selling Korean girl group album of 2016. Within 19 months after debut, Twice had already sold over 1.2 million units of their four EPs and special album. By the end of 2021, Twice had sold over 7.29 million albums in Korea in 2019. As of December 2020, the group has sold over 10 million albums in South Korea and Japan.
+
+The group debuted in Japan on June 28, 2017, under Warner Music Japan, with the release of a compilation album titled #Twice.[1] The album charted at number 2 on the Oricon Albums Chart with the highest first-week album sales by a K-pop artist in Japan in two years. It was followed by the release of Twice's first original Japanese maxi single titled "One More Time" in October. Twice became the first Korean girl group to earn a platinum certification from the Recording Industry Association of Japan (RIAJ) for both an album and CD single in the same year. Twice ranked third in the Top Artist category of Billboard Japan's 2017 Year-end Rankings, and in 2019, they became the first Korean girl group to embark on a Japanese dome tour. 
+</div>
+</body>
+</html>
