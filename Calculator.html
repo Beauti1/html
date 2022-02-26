@@ -1,0 +1,66 @@
+﻿<html>
+<head>
+	<title>Calculator</title>
+</head>
+<body>
+		<h2>Calculator</h3>
+		<form >
+            		<input type="text" id="m">
+			<br><br>
+			<input type="text" id="n">
+			<br><br>
+			<input type="text" id="result">
+			<br><br>
+			<input type="button" value=" + " onClick="add()">
+			<input type="button" value=" - " onClick="sub()">
+			<input type="button" value=" * " onClick="mul()">
+			<input type="button" value=" / " onClick="div()">
+			<input type="button" value=" ** " onClick="pow()">
+			<input type="button" value=" % " onClick="mod()">
+            		<br><br>
+        	</form>
+	<script type="text/javascript">
+		function add(){
+		 let m = document.getElementById("m").value;
+		 let n = document.getElementById("n").value;
+		 let r = Number(m) + Number(n);
+		 document.getElementById("result").value = r;
+		}
+		  
+		function sub(){
+		 let m = document.getElementById("m").value;
+		 let n = document.getElementById("n").value;
+		 let r = Number(m) - Number(n);
+		 document.getElementById("result").value = r;
+		}
+
+		function mul(){
+		 let m = document.getElementById("m").value;
+		 let n = document.getElementById("n").value;
+		 let r = Number(m) * Number(n);
+		 document.getElementById("result").value = r;
+		}
+
+		function div(){
+		 let m = document.getElementById("m").value;
+		 let n = document.getElementById("n").value;
+		 let r = Number(m) / Number(n);
+		 document.getElementById("result").value = r;
+		}
+
+		function pow(){
+		 let m = document.getElementById("m").value;
+		 let n = document.getElementById("n").value;
+		 let r = Number(m) ** Number(n);
+		 document.getElementById("result").value = r;
+		}
+		
+		function mod(){
+		 let m = document.getElementById("m").value;
+		 let n = document.getElementById("n").value;
+		 let r = Number(m) % Number(n);
+		 document.getElementById("result").value = r;
+		}
+	</script>
+</body>
+</html>
